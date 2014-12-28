@@ -8,7 +8,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <include layout="@layout/font_awesome_text_example" />
+        <include layout="@layout/font_awesome_text_example"
+            android:id="@+id/" />
 
         <include layout="@layout/bootstrap_button_basic_buttons_example" />
 

@@ -11,12 +11,12 @@ import com.beardedhen.androidbootstrap.BootstrapEditText;
 import com.beardedhen.androidbootstrap.FontAwesomeText;
 
 public class MainActivity extends Activity {
-
-	@Override
+    @Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+
+		//测试通过
 		//get access to some FontAwesomeText items in the layout
 		final FontAwesomeText tv1 = (FontAwesomeText) findViewById(R.id.lblOne);
 		FontAwesomeText tv2 = (FontAwesomeText) findViewById(R.id.lblTwo);
